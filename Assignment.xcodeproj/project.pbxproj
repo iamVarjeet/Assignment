@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4426A5402C05D36E00825AD5 /* PostDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A53F2C05D36E00825AD5 /* PostDataModel.swift */; };
+		4426A5422C05DA6E00825AD5 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A5412C05DA6E00825AD5 /* PostsTableViewCell.swift */; };
+		4426A5482C05EB0000825AD5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A5472C05EB0000825AD5 /* DetailViewController.swift */; };
 		44C096842C05C4DD000CCA03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096832C05C4DD000CCA03 /* AppDelegate.swift */; };
 		44C096862C05C4DD000CCA03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096852C05C4DD000CCA03 /* SceneDelegate.swift */; };
 		44C096882C05C4DD000CCA03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096872C05C4DD000CCA03 /* ViewController.swift */; };
 		44C0968B2C05C4DD000CCA03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C0968A2C05C4DD000CCA03 /* Base */; };
 		44C0968D2C05C4DE000CCA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C0968C2C05C4DE000CCA03 /* Assets.xcassets */; };
 		44C096902C05C4DE000CCA03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C0968F2C05C4DE000CCA03 /* Base */; };
+		44C096982C05C4EF000CCA03 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096972C05C4EF000CCA03 /* MyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4426A53F2C05D36E00825AD5 /* PostDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataModel.swift; sourceTree = "<group>"; };
+		4426A5412C05DA6E00825AD5 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		4426A5472C05EB0000825AD5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		44C096802C05C4DD000CCA03 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C096832C05C4DD000CCA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C096852C05C4DD000CCA03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		44C0968C2C05C4DE000CCA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C0968F2C05C4DE000CCA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C096912C05C4DE000CCA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C096972C05C4EF000CCA03 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				44C0968C2C05C4DE000CCA03 /* Assets.xcassets */,
 				44C0968E2C05C4DE000CCA03 /* LaunchScreen.storyboard */,
 				44C096912C05C4DE000CCA03 /* Info.plist */,
+				44C096972C05C4EF000CCA03 /* MyViewModel.swift */,
+				4426A53F2C05D36E00825AD5 /* PostDataModel.swift */,
+				4426A5412C05DA6E00825AD5 /* PostsTableViewCell.swift */,
+				4426A5472C05EB0000825AD5 /* DetailViewController.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			files = (
 				44C096882C05C4DD000CCA03 /* ViewController.swift in Sources */,
 				44C096842C05C4DD000CCA03 /* AppDelegate.swift in Sources */,
+				44C096982C05C4EF000CCA03 /* MyViewModel.swift in Sources */,
+				4426A5422C05DA6E00825AD5 /* PostsTableViewCell.swift in Sources */,
+				4426A5402C05D36E00825AD5 /* PostDataModel.swift in Sources */,
 				44C096862C05C4DD000CCA03 /* SceneDelegate.swift in Sources */,
+				4426A5482C05EB0000825AD5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
