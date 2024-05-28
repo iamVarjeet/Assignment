@@ -8,13 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-   
     
-
+//MARK:- OUTLETS
     @IBOutlet weak var useIDLabel: UILabel!
     @IBOutlet weak var PostsTableView: UITableView!
     
+//MARK:- Variables
     let Viewmodel:MyViewModel = MyViewModel()
+    
+//MARK: VIEW Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         setTableView()
@@ -29,13 +31,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         })
     }
     
+//    MARK : CUSTOM FUNCTIONS
     func setTableView(){
         PostsTableView.delegate = self
         PostsTableView.dataSource = self
         PostsTableView.reloadData()
     }
     
-    
+//    MARK : TABLE VIEW METHODS
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         Viewmodel.allPostsArray.count
     }
@@ -53,17 +56,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         vc.Details = DetailItem(ID: "\(Viewmodel.allPostsArray[indexPath.row].id ?? 0)", Body: "\(Viewmodel.allPostsArray[indexPath.row].body ?? "")", title: "\(Viewmodel.allPostsArray[indexPath.row].title ?? "")")
         self.navigationController?.pushViewController(vc, animated: true)
     }
-    
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//            let offsetY = scrollView.contentOffset.y
-//            let contentHeight = scrollView.contentSize.height
-//            let frameHeight = scrollView.frame.size.height
-//
-//            if offsetY > contentHeight - frameHeight {
-//                print("Last cell reached")
-//                
-//            }
-//        }
+     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
             if indexPath.row == Viewmodel.allPostsArray.count - 1 {
                 print("Last cell reached")

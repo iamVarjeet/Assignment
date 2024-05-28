@@ -16,17 +16,17 @@ struct DetailItem {
 class DetailViewController: UIViewController {
     
     //MARK: OUTLETS
-        
     @IBOutlet weak var jobTitle_Label: UILabel!
     @IBOutlet weak var jobBody_Label: UILabel!
     @IBOutlet weak var jobID_Label: UILabel!
-    
-    var Details : DetailItem =  DetailItem(ID: "1", Body: "Body", title: "Title")
-        
     @IBOutlet var BackView: UIView!
-    
     @IBOutlet weak var back_Button: UIButton!
     
+    //MARK: Variables
+    var Details : DetailItem =  DetailItem(ID: "1", Body: "Body", title: "Title")
+    
+    
+    //MARK: View Cycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()

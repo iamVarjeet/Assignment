@@ -8,8 +8,8 @@
 import UIKit
 
 class PostsTableViewCell: UITableViewCell {
-//MARK: OUTLETS
     
+//MARK: OUTLETS
     @IBOutlet weak var jobTitle_Label: UILabel!
     @IBOutlet weak var jobBody_Label: UILabel!
     @IBOutlet weak var jobID_Label: UILabel!

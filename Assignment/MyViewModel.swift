@@ -7,7 +7,6 @@
 
 import Foundation
 class MyViewModel {
-    
     // MARK: VARIABLES
     var page = 1
     var lastPage = false
