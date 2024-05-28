@@ -10,6 +10,7 @@
 		4426A5402C05D36E00825AD5 /* PostDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A53F2C05D36E00825AD5 /* PostDataModel.swift */; };
 		4426A5422C05DA6E00825AD5 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A5412C05DA6E00825AD5 /* PostsTableViewCell.swift */; };
 		4426A5482C05EB0000825AD5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4426A5472C05EB0000825AD5 /* DetailViewController.swift */; };
+		44924C1E2C05FE620032BBA3 /* Solution Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 44924C1D2C05FE620032BBA3 /* Solution Video.mp4 */; };
 		44C096842C05C4DD000CCA03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096832C05C4DD000CCA03 /* AppDelegate.swift */; };
 		44C096862C05C4DD000CCA03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096852C05C4DD000CCA03 /* SceneDelegate.swift */; };
 		44C096882C05C4DD000CCA03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C096872C05C4DD000CCA03 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		4426A53F2C05D36E00825AD5 /* PostDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataModel.swift; sourceTree = "<group>"; };
 		4426A5412C05DA6E00825AD5 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		4426A5472C05EB0000825AD5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		44924C1D2C05FE620032BBA3 /* Solution Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Solution Video.mp4"; sourceTree = "<group>"; };
 		44C096802C05C4DD000CCA03 /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C096832C05C4DD000CCA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C096852C05C4DD000CCA03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44924C1C2C05FE1E0032BBA3 /* Solution Video */ = {
+			isa = PBXGroup;
+			children = (
+				44924C1D2C05FE620032BBA3 /* Solution Video.mp4 */,
+			);
+			path = "Solution Video";
+			sourceTree = "<group>";
+		};
 		44C096772C05C4DD000CCA03 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		44C096822C05C4DD000CCA03 /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				44924C1C2C05FE1E0032BBA3 /* Solution Video */,
 				44C096832C05C4DD000CCA03 /* AppDelegate.swift */,
 				44C096852C05C4DD000CCA03 /* SceneDelegate.swift */,
 				44C096872C05C4DD000CCA03 /* ViewController.swift */,
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C0968D2C05C4DE000CCA03 /* Assets.xcassets in Resources */,
+				44924C1E2C05FE620032BBA3 /* Solution Video.mp4 in Resources */,
 				44C096902C05C4DE000CCA03 /* Base in Resources */,
 				44C0968B2C05C4DD000CCA03 /* Base in Resources */,
 			);
